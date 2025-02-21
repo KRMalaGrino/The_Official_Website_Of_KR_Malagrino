@@ -1,9 +1,10 @@
 .spotify {
+  margin: 0 auto;
+  padding: 0;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  padding: 20px 50px;
 
   background-repeat: no-repeat;
   background-position: center;
@@ -11,9 +12,6 @@
 }
 
 .spotify__videos {
-  display: flex;
-
-  gap: 40px;
 }
 
 .spotify__video-item {

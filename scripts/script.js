@@ -2,12 +2,12 @@
 
 const initialCards = [
   {
-    name: "KR MalaGrino pic 1",
-    link: "",
+    name: "Octave .0",
+    link: "https://s3.amazonaws.com/gather.fandalism.com/3000x3000%2D1098087%2D%2DBC7F4111%2DAF75%2D425E%2DA65A19A8ABF20552%2D%2D0%2D%2D3456218%2D%2DIMG3204.JPG",
   },
   {
-    name: "KR MalaGrino pic 2",
-    link: "",
+    name: "Look Up",
+    link: "https://open.spotify.com/embed/album/1j8F0KOLxKiKPHQMcBxPf1?utm_source=generator&theme=0",
   },
   {
     name: "KR MalaGrino pic 3",

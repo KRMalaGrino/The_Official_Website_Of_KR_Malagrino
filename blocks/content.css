@@ -1,4 +1,7 @@
 .content {
+  margin: 0 auto;
+  padding: 20px 35px;
+
   background-color: black;
   background-position: center;
   background-size: cover;
