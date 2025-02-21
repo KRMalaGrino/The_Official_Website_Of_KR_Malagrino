@@ -1,4 +1,4 @@
-.music {
+.spotify {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,16 +10,16 @@
   background-size: cover;
 }
 
-.music__videos {
+.spotify__videos {
   display: flex;
 
   gap: 40px;
 }
 
-.music__video-item {
+.spotify__video-item {
 }
 
-.music__iframe {
+.spotify__iframe {
   margin: 6px;
   height: 550px;
   width: 500px;
