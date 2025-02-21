@@ -1,0 +1,27 @@
+.music {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 20px 50px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.music__videos {
+  display: flex;
+
+  gap: 40px;
+}
+
+.music__video-item {
+}
+
+.music__iframe {
+  margin: 6px;
+  height: 550px;
+  width: 500px;
+  border: none;
+}
