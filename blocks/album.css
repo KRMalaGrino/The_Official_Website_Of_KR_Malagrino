@@ -1,0 +1,53 @@
+.album {
+  margin: 0 auto;
+  padding: 0 0 35px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.album__wrapper-left {
+  margin: 0;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.album__image {
+  width: 420px;
+  height: 420px;
+
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+
+.album__text-wrapper {
+  padding: 0;
+
+  color: rgb(248, 248, 248);
+}
+
+.album__title {
+  margin: 0 auto;
+  padding: 15px 0 2px;
+
+  font-size: 43px;
+  letter-spacing: 2px;
+}
+
+.album__description {
+  margin: 0 auto;
+  padding: 7px 0 0 1px;
+
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.album__iframe {
+  border: none;
+  height: 350px;
+  width: 500px;
+}

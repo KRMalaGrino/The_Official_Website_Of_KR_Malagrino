@@ -1,53 +1,82 @@
 // ------------------------------ARRAY----------------------------------
 
-const initialCards = [
+const albumInfo = [
   {
     name: "Octave .0",
-    link: "https://s3.amazonaws.com/gather.fandalism.com/3000x3000%2D1098087%2D%2DBC7F4111%2DAF75%2D425E%2DA65A19A8ABF20552%2D%2D0%2D%2D3456218%2D%2DIMG3204.JPG",
+    photo:
+      "https://s3.amazonaws.com/gather.fandalism.com/3000x3000%2D1098087%2D%2DBC7F4111%2DAF75%2D425E%2DA65A19A8ABF20552%2D%2D0%2D%2D3456218%2D%2DIMG3204.JPG",
+    description: "(Full Album) [2024]",
   },
   {
     name: "Look Up",
-    link: "https://open.spotify.com/embed/album/1j8F0KOLxKiKPHQMcBxPf1?utm_source=generator&theme=0",
+    photo: "",
+    description: "",
   },
   {
-    name: "KR MalaGrino pic 3",
-    link: "",
+    name: "Filthy Rags",
+    photo: "",
+    description: "",
   },
   {
-    name: "KR MalaGrino pic 4",
-    link: "",
+    name: "SEED-3000",
+    photo: "",
+    description: "",
   },
   {
-    name: "KR MalaGrino pic 5",
-    link: "",
+    name: "A Lil' Fancy",
+    photo: "",
+    description: "",
   },
   {
-    name: "KR MalaGrino pic 6",
-    link: "",
+    name: "L'OWL'Y",
+    photo: "",
+    description: "",
+  },
+  {
+    name: "REALM IV",
+    photo: "",
+    description: "",
+  },
+  {
+    name: "S-O-L",
+    photo: "",
+    description: "",
+  },
+  {
+    name: "III DOOR",
+    photo: "",
+    description: "",
+  },
+  {
+    name: "T-PO'AK",
+    photo: "",
+    description: "",
   },
 ];
 
-// --------------------------CARD TEMPLATES-------------------------------
+// --------------------------ALBUM TEMPLATES-------------------------------
 
-const cardTemplate = document.querySelector("#card-template");
-const cardsList = document.querySelector(".cards__list");
+const albumTemplate = document.querySelector("#album-template");
+const albumsList = document.querySelector(".album");
 
-function getCardElement(data) {
-  const cardElement = cardTemplate.content
-    .querySelector(".card")
+function getAlbumElement(data) {
+  const albumElement = albumTemplate.content
+    .querySelector(".album")
     .cloneNode(true);
 
-  const cardNameEl = cardElement.querySelector(".card__title");
-  const cardImageEl = cardElement.querySelector(".card__image");
+  const albumNameEl = albumElement.querySelector(".album__title");
+  const albumImageEl = albumElement.querySelector(".album__image");
+  const albumDescriptionEl = albumElement.querySelector(".album__description");
 
-  cardNameEl.textContent = data.name;
-  cardImageEl.src = data.link;
-  cardImageEl.alt = data.name;
+  albumNameEl.textContent = data.name;
+  albumImageEl.src = data.photo;
+  albumImageEl.alt = data.name;
+  albumDescriptionEl.textContent = data.description;
 
-  return cardElement;
+  return albumElement;
 }
 
-for (let i = 0; i < initialCards.length; i++) {
-  const cardElement = getCardElement(initialCards[i]);
-  cardsList.prepend(cardElement);
+for (let i = 0; i < albumInfo.length; i++) {
+  const albumElement = getAlbumElement(albumInfo[i]);
+  albumsList.prepend(albumElement);
 }
