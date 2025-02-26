@@ -20,6 +20,42 @@
     <div class="page">
     <header class="header"></header>
     <main class="content">
+      <section class="playlist">
+        <div class="playlist__cover">
+          <div class="playlist__cover__image"></div>
+          <h1 class="playlist__cover__heading">Playlist</h1>
+        </div>
+        <div class="playlist__block">
+          <h3>Add song</h3>
+          <div class="playlist__input">
+            <input type="text" placeholder="Name" class="playlist__input__text playlist__input__text_type_title">
+            <input type="text" placeholder="Artist" class="playlist__input__text playlist__input__text_type_artist">
+            <button class="playlist__input__btn playlist__input__btn_action_add">
+              Add
+            </button>
+          </div>
+        </div>
+        <div class="playlist__block">
+          <h3>Added</h3>
+          <div class="playlist__no-songs">
+            <p class="playlist__no-songs__text">No songs added</p>
+          </div>
+          <div class="playlist__songs-container">
+          </div>
+          <div class="playlist__input__submit">
+            <button class="playlist__input__btn playlist__input__btn_action_reset playlist__input__btn_disabled" disabled>
+              Clear playlist
+            </button>
+          </div>
+        </div>
+          <template id="song-template">
+        <div class="playlist__song">
+          <h4 class="playlist__song__artist"></h4>
+          <p class="playlist__song__title"></p>
+          <button class="playlist__song__like"></button>
+        </div>
+      </template>
+    </section>
       <section class="album">
         <template id="album-template">
         <div class="album__wrapper-left">
