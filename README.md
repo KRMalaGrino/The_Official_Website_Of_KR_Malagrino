@@ -6,7 +6,9 @@
 
 **Technologies & techniques**
 
----
+- HTML
+- CSS
+- JavaScript
 
 **Pictures, GIFs, & screenshots**
 
