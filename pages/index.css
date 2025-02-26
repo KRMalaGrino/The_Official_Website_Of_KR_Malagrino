@@ -6,6 +6,8 @@
 
 @import url(../blocks/content.css);
 
+@import url(../blocks/playlist.css);
+
 @import url(../blocks/album.css);
 
 @import url(../blocks/spotify.css);

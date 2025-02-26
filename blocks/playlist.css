@@ -1,0 +1,114 @@
+.playlist {
+  margin: 0 auto;
+  padding: 0 0 75px;
+
+  max-width: 468px;
+}
+
+.playlist__block {
+  margin: 60px 0 0;
+}
+
+.playlist__input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist__input__submit {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 0 0;
+}
+
+.playlist__input__text {
+  padding: 0 10px;
+
+  width: 150px;
+  height: 50px;
+  border-bottom: 1px solid #f1f1f1;
+  box-sizing: border-box;
+
+  font-size: 0.8em;
+}
+
+.playlist__elem_text::placeholder {
+  color: #d3d3d3;
+}
+
+.playlist__input__btn {
+  padding: 0 10px;
+
+  background-color: #7e7e7e;
+  width: 150px;
+  height: 50px;
+  border-radius: 2px;
+
+  font-size: 0.8em;
+
+  cursor: pointer;
+}
+
+.playlist__input__btn_disabled {
+  background-color: #d1d1d1;
+
+  cursor: default;
+}
+
+.playlist__no-songs {
+  display: flex;
+
+  height: 70px;
+}
+
+.playlist__no-songs_hidden {
+  display: none;
+}
+
+.playlist__no-songs__text {
+  margin: auto;
+
+  text-align: center;
+  font-size: 1.2em;
+  color: #d3d3d3;
+}
+
+.playlist__song {
+  margin: 0;
+  padding: 0 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 0.8em;
+
+  position: relative;
+}
+
+.playlist__song__artist {
+  margin: 0 10px 0 0;
+}
+
+.playlist__song__like {
+  height: 15px;
+  width: 15px;
+  border: none;
+  background-size: 100%;
+  opacity: 0.5;
+
+  position: absolute;
+  right: 10px;
+
+  cursor: pointer;
+
+  transition: opacity 0.3s;
+}
+
+.playlist__song__like:hover {
+  transform: scale(1.3);
+}
+
+.playlist__song__like_active {
+  opacity: 1;
+}
