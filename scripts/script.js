@@ -1,5 +1,59 @@
 // ------------------------------PLAYLIST---------------------------------
 
+const container = document.querySelector(".playlist");
+const songsContainer = playlist.querySelector(".playlist__songs-container");
+const addButton = playlist.querySelector(".playlist__input__btn_action_add");
+const resetButton = playlist.querySelector(
+  ".playlist__input__btn_action_reset"
+);
+const noSongsElement = playlist.querySelector(".playlist__no-songs");
+
+function renderHasSong() {
+  resetButton.removeAttribute("disabled");
+  resetButton.classList.remove("playlist__input__btn_disabled");
+  noSongsElement.classList.add("playlist__no-songs_hidden");
+}
+
+function renderNoSong() {
+  resetButton.setAttribute("disabled", true);
+  resetButton.classList.add("playlist__input__btn_disabled");
+  noSongsElement.classList.remove("playlist__no-songs_hidden");
+}
+
+function addSong(artistValue, titleValue) {
+  const songTemplate = document.querySelector("#song-template").content;
+  const songElement = songTemplate
+    .querySelector(".playlist__song")
+    .cloneNode(true);
+
+  songElement.querySelector(".playlist__song__artist").textContent =
+    artistValue;
+  songElement.querySelector(".playlist__song__title").textContent = titleValue;
+
+  songsContainer.append(songElement);
+}
+
+addButton.addEventListener("click", function () {
+  const artist = document.querySelector(".input__text_type_artist");
+  const title = document.querySelector(".input__text_type_title");
+
+  addSong(artist.value, title.value);
+  renderHasSongs();
+
+  artist.value = "";
+  title.value = "";
+});
+
+resetButton.addEventListener("click", function () {
+  const songs = document.querySelectorAll(".song");
+
+  songs.forEach((item) => {
+    item.remove();
+  });
+
+  renderNoSong();
+});
+
 // ------------------------------ALBUMS ARRAY---------------------------------
 
 const albumInfo = [
@@ -113,7 +167,12 @@ function getAlbumElement(data) {
 
 // ----------------------LOOP THROUGH ALL THE ALBUMS (LOOP)-------------------------
 
-for (let i = 0; i < albumInfo.length; i++) {
-  const albumElement = getAlbumElement(albumInfo[i]);
+albumInfo.forEach((info) => {
+  const albumElement = getAlbummElement(info);
   albumBlock.prepend(albumElement);
-}
+});
+
+// for (let i = 0; i < albumInfo.length; i++) {
+//   const albumElement = getAlbumElement(albumInfo[i]);
+//   albumBlock.prepend(albumElement);
+// }
