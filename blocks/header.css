@@ -6,15 +6,18 @@
 }
 
 .header__wrapper-1 {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.header__wrapper-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0 0 50px;
+}
+
+.header__wrapper-2 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0 40px;
 }
 
 .header__avatar {
@@ -25,7 +28,7 @@
 }
 
 .header__name {
-  margin: 0 auto;
+  margin: 0 0 0 60px;
   padding: 0;
 
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -37,8 +40,8 @@
 }
 
 .header__bio {
-  margin: 0 0 0;
-  padding: 0 15px 40px;
+  margin: 0 auto;
+  padding: 0 0 0 15px;
   max-width: 980px;
 
   color: #ffffff;
@@ -50,7 +53,7 @@
 
 .header__links {
   margin: 0;
-  padding: 0;
+  padding: 0 30px 0 0;
   height: 450px;
   display: flex;
   flex-direction: column;
