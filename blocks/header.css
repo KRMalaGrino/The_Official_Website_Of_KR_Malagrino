@@ -66,6 +66,18 @@
   text-align: center;
 }
 
+.header__link-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.header__icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 25%;
+}
+
 .header__link {
   color: #ffffff;
   text-decoration: none;
