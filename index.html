@@ -20,17 +20,17 @@
     <div class="page">
     <header class="header"></header>
     <main class="content">
-      <section class="header">
-        <div class="header__wrapper-2">
-          <div class="header__wrapper-1">
+      <section class="profile">
+        <div class="profile__wrapper-2">
+          <div class="profile__wrapper-1">
         <img
-          class="header__avatar"
+          class="profile__avatar"
           src="./images/Header-avatar.jpg"
           alt="Avatar picture"
         />
-          <h1 class="header__name">KR MalaGrino</h1>
+          <h1 class="profile__name">KR MalaGrino</h1>
         </div>
-        <p class="header__bio">
+        <p class="profile__bio">
               When I was fresh out of highschool I attended SAE Institute in NYC for 9 months where I would obtain my certificate of audio technology . 
           Since graduating in 2014, there's been over 200 songs, 15 EPs and 9 albums of original compositions and lyrics released on all streaming platforms . 
           I've traveled all over the country performing anywhere I could be heard . 
@@ -41,34 +41,34 @@
           I am versatile and have a hunger to create art and help others be successful as well .
         </p>
       </div>
-        <ul class="header__links">
-          <li class="header__link-wrapper">
-            <img class="header__icon"
+        <ul class="profile__links">
+          <li class="profile__link-wrapper">
+            <img class="profile__icon"
             src="./images/instagram.png"
             alt="instagram"
             />
-            <a href="https://www.instagram.com/kr_malagrino?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="header__link">Instagram</a>
+            <a href="https://www.instagram.com/kr_malagrino?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="profile__link">Instagram</a>
           </li>
-          <li class="header__link-wrapper">
-            <img class="header__icon"
+          <li class="profile__link-wrapper">
+            <img class="profile__icon"
             src="./images/youtube.png"
             alt="youtube"
             />
-            <a href="https://www.youtube.com/@Kr_malagrino" class="header__link">YouTube</a>
+            <a href="https://www.youtube.com/@Kr_malagrino" class="profile__link">YouTube</a>
           </li>
-          <li class="header__link-wrapper">
-            <img class="header__icon"
+          <li class="profile__link-wrapper">
+            <img class="profile__icon"
             src="./images/spotify.png"
             alt="spotify"
             />
-            <a href="https://open.spotify.com/artist/5rNcfav2xYKUwe5GvmsTIq?si=wZrA8LZtR-CF4St_Nm6N-Q" class="header__link">Spotify</a>
+            <a href="https://open.spotify.com/artist/5rNcfav2xYKUwe5GvmsTIq?si=wZrA8LZtR-CF4St_Nm6N-Q" class="profile__link">Spotify</a>
           </li>
-          <li class="header__link-wrapper">
-            <img class="header__icon"
+          <li class="profile__link-wrapper">
+            <img class="profile__icon"
             src="./images/github.png"
             alt="github"
             />
-            <a href="https://github.com/KRMalaGrino" class="header__link">GitHub</a>
+            <a href="https://github.com/KRMalaGrino" class="profile__link">GitHub</a>
           </li>
         </ul>
       </section>
@@ -169,38 +169,6 @@
           </div>
         </div>
       </section>
-      <section class="playlist">
-        <div class="playlist__block">
-          <h3>Add song</h3>
-          <div class="playlist__input">
-            <input type="text" placeholder="Name" class="playlist__input__text playlist__input__text_type_title">
-            <input type="text" placeholder="Artist" class="playlist__input__text playlist__input__text_type_artist">
-            <button class="playlist__input__btn playlist__input__btn_action_add">
-              Add
-            </button>
-          </div>
-        </div>
-        <div class="playlist__block">
-          <h3>Added</h3>
-          <div class="playlist__songs-container">
-          </div>
-          <div class="playlist__no-songs">
-            <p class="playlist__no-songs__text">No songs added</p>
-          </div>
-          <div class="playlist__input__submit">
-            <button class="playlist__input__btn playlist__input__btn_action_reset playlist__input__btn_disabled" disabled>
-              Clear playlist
-            </button>
-          </div>
-        </div>
-          <template id="song-template">
-        <div class="playlist__song">
-          <h4 class="playlist__song__artist"></h4>
-          <p class="playlist__song__title"></p>
-          <button class="playlist__song__like"></button>
-        </div>
-      </template>
-    </section>
     </main>
     <script src="scripts/script.js" defer></script>
   </body>
