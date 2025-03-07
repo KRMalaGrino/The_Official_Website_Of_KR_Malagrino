@@ -3,28 +3,62 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.highlights__look-up {
+.highlights__video {
   margin: 0;
-  padding: 0 2px;
-  width: 520px;
-  height: 275px;
+  width: 500px;
+  height: 325px;
   border: none;
 }
 
-.highlights__kahina {
-  margin: 0;
-  padding: 0 2px;
-  width: 520px;
-  height: 275px;
-  border: none;
+.highlights__video__look-up {
 }
 
-.highlights__a-lil-fancy {
-  margin: 0;
-  padding: 0 2px;
+.highlights__video__kahina {
+}
+
+.highlights__video__a-lil-fancy {
+}
+
+.highlights__video__erth {
+}
+
+.highlights__video__mercury {
+}
+
+.highlights__video__new-world {
+}
+
+.highlights__video__all-she-wrote {
+}
+
+.highlights__video__save-the-children {
+}
+
+.highlights__coming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
   width: 520px;
   height: 275px;
-  border: none;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  letter-spacing: 32px;
+  text-align: center;
+}
+
+.highlights__coming-soon__title {
+  margin: 0 0 20px;
+}
+
+.highlights__coming-soon__subtitle {
+  margin: 0 auto;
+
+  font-size: 14px;
 }
