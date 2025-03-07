@@ -1,2 +1,30 @@
 .highlights {
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlights__look-up {
+  margin: 0;
+  padding: 0 2px;
+  width: 520px;
+  height: 275px;
+  border: none;
+}
+
+.highlights__kahina {
+  margin: 0;
+  padding: 0 2px;
+  width: 520px;
+  height: 275px;
+  border: none;
+}
+
+.highlights__a-lil-fancy {
+  margin: 0;
+  padding: 0 2px;
+  width: 520px;
+  height: 275px;
+  border: none;
 }
