@@ -1,4 +1,4 @@
-.spotify {
+.discography {
   margin: 0 auto;
   padding: 40px 0;
 
@@ -7,13 +7,13 @@
   justify-content: space-between;
 }
 
-.spotify__videos {
+.discography__videos {
 }
 
-.spotify__video-item {
+.discography__video-item {
 }
 
-.spotify__iframe {
+.discography__iframe {
   margin: 6px;
   height: 550px;
   width: 500px;
