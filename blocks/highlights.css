@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
 
-  color: rgb(240, 240, 240);
+  color: rgb(255, 255, 255);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   letter-spacing: 8px;
@@ -33,15 +33,16 @@
 }
 
 .highlights__text {
-  margin: 12px 0;
+  margin: 10px 0;
   width: 75px;
+  opacity: 0.75;
 
-  transition: color 0.35s linear;
-  cursor: help;
+  transition: opacity 0.35s linear;
+  cursor: pointer;
 }
 
 .highlights__text:hover {
-  color: rgb(179, 179, 179);
+  opacity: 0.5;
 }
 
 .highlights__coming-soon {
