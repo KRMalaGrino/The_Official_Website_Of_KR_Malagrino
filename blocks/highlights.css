@@ -3,11 +3,26 @@
   padding: 40px 0;
   gap: 10px;
 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.highlights__wrapper-1 {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+.highlights__wrapper-2 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  color: rgb(240, 240, 240);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  letter-spacing: 8px;
+  list-style-type: none;
 }
 
 .highlights__video {
@@ -17,28 +32,16 @@
   border: none;
 }
 
-.highlights__video__look-up {
+.highlights__text {
+  margin: 12px 0;
+  width: 75px;
+
+  transition: color 0.35s linear;
+  cursor: help;
 }
 
-.highlights__video__kahina {
-}
-
-.highlights__video__a-lil-fancy {
-}
-
-.highlights__video__erth {
-}
-
-.highlights__video__mercury {
-}
-
-.highlights__video__new-world {
-}
-
-.highlights__video__all-she-wrote {
-}
-
-.highlights__video__save-the-children {
+.highlights__text:hover {
+  color: rgb(179, 179, 179);
 }
 
 .highlights__coming-soon {
