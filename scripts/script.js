@@ -117,3 +117,38 @@ const discography = [
     link: "https://open.spotify.com/embed/album/17KtMScOLI3Ic8fIXUtksL?utm_source=generator&theme=0",
   },
 ];
+
+// -------------------Discography Global Variables-------------------------
+
+const discographyTemplate = document.querySelector("#discography");
+const discographyBlockWrapper = document.querySelector(
+  ".discography__block-wrapper"
+);
+
+// ----- Function to get template info ------
+function getDiscographyInfo(info) {
+  const blockElement = discographyTemplate.textContent
+    .querySelector(".discography__block")
+    .cloneNode(true);
+
+  // ------ local function variables -------
+  const discographyIframe = blockElement.querySelector(".discography__iframe");
+  const discographySongTitle = blockElement.querySelector(
+    ".discography__song-title"
+  );
+  const discographyLyrics = blockElement.querySelector(".discography__lyrics");
+
+  // ------ get the info from the array -------
+  discographyIframe.src = info.link;
+  discographySongTitle.textContent = info.title;
+  discographyLyrics.textContent = info.year;
+
+  // ------ return it ------
+  return blockElement;
+}
+
+// ------- loop through array ---------
+discography.forEach((item) => {
+  const blockElement = getDiscographyInfo(item);
+  discographyBlockWrapper.prepend(blockElement);
+});
