@@ -1,16 +1,21 @@
 .discography {
   margin: 0 auto;
   padding: 40px 0;
+}
+
+.discography__block-wrapper {
+  margin: 0;
+  padding: 0;
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.discography__videos {
-}
-
-.discography__video-item {
+.discography__block {
+  margin: 0;
+  padding: 0;
 }
 
 .discography__iframe {
@@ -18,4 +23,10 @@
   height: 550px;
   width: 500px;
   border: none;
+}
+
+.discography__song-title {
+}
+
+.discography__lyrics {
 }
