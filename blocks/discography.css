@@ -26,7 +26,11 @@
 }
 
 .discography__song-title {
+  margin: 0;
+  padding: 0;
 }
 
 .discography__lyrics {
+  margin: 0;
+  padding: 0;
 }
