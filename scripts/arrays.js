@@ -1,4 +1,4 @@
-const highlights = [
+const highlightsArray = [
   {
     song: "Look Up",
     link: "https://www.youtube.com/embed/zbF3SsoTUvA?si=is5eNOwXuqZPKRKu",
@@ -37,7 +37,7 @@ const highlights = [
   },
 ];
 
-const discography = [
+const discographyArray = [
   {
     title: "Octave .0",
     year: "2024",
@@ -90,4 +90,4 @@ const discography = [
   },
 ];
 
-export { highlights, discography };
+export { highlightsArray, discographyArray };

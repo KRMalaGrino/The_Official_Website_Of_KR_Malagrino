@@ -1,5 +1,3 @@
-import { discography } from "../scripts/arrays";
-
 const discographyTemplate = document.querySelector("#discography");
 const discographyBlockWrapper = document.querySelector(
   ".discography__block-wrapper"
@@ -26,8 +24,3 @@ function getDiscographyInfo(info) {
 
   return discographyBlockElement;
 }
-
-discography.forEach((item) => {
-  const discographyBlockElement = getDiscographyInfo(item);
-  discographyBlockWrapper.append(discographyBlockElement);
-});
