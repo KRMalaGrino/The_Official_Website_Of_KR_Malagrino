@@ -227,46 +227,78 @@ const solLyricsArray = [
 
 const doorLyricsArray = [
   {
-    songTitle: "",
+    songTitle: "GI-AW'",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "Erth",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "To Move",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "D-NA'",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "New World",
+    lyrics: "",
+  },
+  {
+    songTitle: "Lonely Road",
+    lyrics: "",
+  },
+  {
+    songTitle: "SI-A'",
+    lyrics: "",
+  },
+  {
+    songTitle: "Madness'",
+    lyrics: "",
+  },
+  {
+    songTitle: "Portals'",
     lyrics: "",
   },
 ]; // finish song titles
 
 const tpoakLyricsArray = [
   {
-    songTitle: "",
+    songTitle: "Sleep, Sleep",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "Mercury",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "F.T.S.",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "Whatchu' Mean?",
     lyrics: "",
   },
   {
-    songTitle: "",
+    songTitle: "Blame U",
+    lyrics: "",
+  },
+  {
+    songTitle: "The Power Of A King",
+    lyrics: "",
+  },
+  {
+    songTitle: "U Don't Know Me",
+    lyrics: "",
+  },
+  {
+    songTitle: "More Than Human",
+    lyrics: "",
+  },
+  {
+    songTitle: "Sayonara!",
     lyrics: "",
   },
 ]; // finish song titles
