@@ -90,4 +90,71 @@ const discographyArray = [
   },
 ];
 
-export { highlightsArray, discographyArray };
+const octaveLyricsArray = [
+  {
+    songTitle: "Da Bubu",
+    lyrics: "",
+  },
+  {
+    songTitle: "C.O.R.E.",
+    lyrics: "",
+  },
+  {
+    songTitle: "Opposite Spirit",
+    lyrics: "",
+  },
+  {
+    songTitle: "Peace, Blood, Water",
+    lyrics: "",
+  },
+  {
+    songTitle: "Rarity",
+    lyrics: "",
+  },
+  {
+    songTitle: "Jersey Boy",
+    lyrics: "",
+  },
+  {
+    songTitle: "Folded Flags",
+    lyrics: "",
+  },
+];
+
+const seedLyricsArray = [
+  {
+    songTitle: "Live Again",
+    lyrics: "",
+  },
+  {
+    songTitle: "A Cloak Around Me",
+    lyrics: "",
+  },
+  {
+    songTitle: "More Than Love",
+    lyrics: "",
+  },
+  {
+    songTitle: "Filthy Rags",
+    lyrics: "",
+  },
+  {
+    songTitle: "Save The Children",
+    lyrics: "",
+  },
+  {
+    songTitle: "3000 Promises",
+    lyrics: "",
+  },
+  {
+    songTitle: "Only You",
+    lyrics: "",
+  },
+];
+
+export {
+  highlightsArray,
+  discographyArray,
+  octaveLyricsArray,
+  seedLyricsArray,
+};

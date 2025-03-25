@@ -8,12 +8,12 @@ const highlightsBlockkWrapper = document.querySelector(
 const discographyBlockWrapper = document.querySelector(
   ".discography__block-wrapper"
 );
-
+// Highlights loop append
 highlightsArray.forEach((item) => {
   const highlightsBlockElement = getHighlightsInfo(item);
   highlightsBlockkWrapper.append(highlightsBlockElement);
 });
-
+// Discography loop append
 discographyArray.forEach((item) => {
   const discographyBlockElement = getDiscographyInfo(item);
   discographyBlockWrapper.append(discographyBlockElement);
