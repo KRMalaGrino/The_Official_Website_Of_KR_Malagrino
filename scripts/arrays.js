@@ -152,9 +152,133 @@ const seedLyricsArray = [
   },
 ];
 
+const lowlyLyricsArray = [
+  {
+    songTitle: "Ice",
+    lyrics: "",
+  },
+  {
+    songTitle: "A Voice For The Voiceless",
+    lyrics: "",
+  },
+  {
+    songTitle: "Weight Of The Almighty",
+    lyrics: "",
+  },
+  {
+    songTitle: "Queen",
+    lyrics: "",
+  },
+  {
+    songTitle: "Ironical",
+    lyrics: "",
+  },
+  {
+    songTitle: "Sentimental",
+    lyrics: "",
+  },
+];
+
+const realmLyricsArray = [
+  {
+    songTitle: "0.7722",
+    lyrics: "",
+  },
+  {
+    songTitle: "If Love Is War,",
+    lyrics: "",
+  },
+  {
+    songTitle: "New Found Knowledge",
+    lyrics: "",
+  },
+  {
+    songTitle: "Woman Of The West",
+    lyrics: "",
+  },
+  {
+    songTitle: "Monster Within",
+    lyrics: "",
+  },
+];
+
+const solLyricsArray = [
+  {
+    songTitle: "If Not This One, The Next",
+    lyrics: "",
+  },
+  {
+    songTitle: "Word Is Bond",
+    lyrics: "",
+  },
+  {
+    songTitle: "So, We Write Our Stories",
+    lyrics: "",
+  },
+  {
+    songTitle: "Unless We're Dead",
+    lyrics: "",
+  },
+  {
+    songTitle: "All She Wrote",
+    lyrics: "",
+  },
+];
+
+const doorLyricsArray = [
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+]; // finish song titles
+
+const tpoakLyricsArray = [
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+  {
+    songTitle: "",
+    lyrics: "",
+  },
+]; // finish song titles
+
 export {
   highlightsArray,
   discographyArray,
   octaveLyricsArray,
   seedLyricsArray,
+  lowlyLyricsArray,
+  realmLyricsArray,
+  solLyricsArray,
+  doorLyricsArray,
+  tpoakLyricsArray,
 };
