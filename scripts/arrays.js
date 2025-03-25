@@ -1,4 +1,4 @@
-export const highlightsArray = [
+const highlightsArray = [
   {
     song: "Look Up",
     link: "https://www.youtube.com/embed/zbF3SsoTUvA?si=is5eNOwXuqZPKRKu",
@@ -37,7 +37,7 @@ export const highlightsArray = [
   },
 ];
 
-export const discographyArray = [
+const discographyArray = [
   {
     title: "Octave .0",
     year: "2024",
@@ -89,3 +89,5 @@ export const discographyArray = [
     link: "https://open.spotify.com/embed/album/17KtMScOLI3Ic8fIXUtksL?utm_source=generator&theme=0",
   },
 ];
+
+export { highlightsArray, discographyArray };

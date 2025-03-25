@@ -1,27 +1,15 @@
-// const highlightsTemplate = document.querySelector("#highlights");
-// const highlightsBlockkWrapper = document.querySelector(
-//   ".highlights__wrapper-1"
-// );
+const highlightsTemplate = document.querySelector("#highlights");
 
-// export default class Discography {
-//     constructor() {}
+export default function getHighlightsInfo(info) {
+  const highlightsBlockElement = highlightsTemplate.content
+    .querySelector(".highlights__wrapper-2")
+    .cloneNode(true);
 
-//     getHighlightsInfo(info) {
-//   const highlightsBlockElement = highlightsTemplate.content
-//     .querySelector(".highlights__wrapper-2")
-//     .cloneNode(true);
+  const highlightsVideo =
+    highlightsBlockElement.querySelector(".highlights__video");
 
-//   const highlightsVideo =
-//     highlightsBlockElement.querySelector(".highlights__video");
+  highlightsVideo.src = info.link;
+  highlightsVideo.title = info.song;
 
-//   highlightsVideo.src = info.link;
-//   highlightsVideo.title = info.song;
-
-//   return highlightsBlockElement;
-// }
-
-// highlightsArray.forEach((item) => {
-//   const highlightsBlockElement = getHighlightsInfo(item);
-//   highlightsBlockkWrapper.append(highlightsBlockElement);
-// });
-// }
+  return highlightsBlockElement;
+}
