@@ -44,7 +44,8 @@ const discographyArray = [
     song1Lyrics:
       "VERSE 1 - Lately there's been a lot of lovey-dovey - Round four with the wifey like bunnies - Bathe her in the water of the word - The water with the honey - She stays naked in the house - So pleasing to be in her presence - The king is back on the throne - She does it to make a home for him | CHORUS - Home sweet home - Da Bubu for breakfast - Nose rash so i had to switch it up - News flash - when did you become a judge ? | VERSE 2 - Bright & early - birds chirping - Singing to me to get the word in - On the balcony - a cup of coffee - Call Eddie - talk about the new beat - If I like the beat then ima use it - Give it all away so you can't sue me - I worked the past 10 years for free - Not hiding - you know where to find me | CHORUS - Home sweet home - Da Bubu for breakfast - Nose rash so i had to switch it up - News flash - when did you become a judge ? | OUTRO - Are you lord Da Bubu ? Da Bubu - Home sweet home X2",
     song2: "C.O.R.E.",
-    song2Lyrics: "",
+    song2Lyrics:
+      "VERSE - We are back from the dead like Lazarus - For better or worse a road awaits us - Drive through with the legs like drills - We wear only black like johnny cash to symbolize the downtrodden - Pros at rejection and self-hatred - Is it real or is it fake ? - it sure seems real - Convinced that its real now - that wasn't the deal - We escape by pouring out our inner beings | BRIDGE - On the canvas - On the song - On the paper - On the skin | CHORUS - Pour it out now from the core of your being X8 | OUTRO - Pour it out now - Pour it out now from the core of your being X4",
     song3: "Opposite Spirit",
     song3Lyrics: "",
     song4: "Peace, Blood, Water",

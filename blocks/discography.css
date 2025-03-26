@@ -28,7 +28,15 @@
   border: none;
 }
 
-.discography__text-wrapper {
+.discography__all-lyrics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  max-width: 1025px;
+}
+
+.discography__text-wrapper1 {
   max-width: 1000px;
 
   color: #dddddd;
@@ -39,12 +47,180 @@
   list-style-type: none;
 }
 
-.discography__song-title {
+.discography__song1 {
   margin: 12px 0 0 10px;
   padding: 0;
 }
 
-.discography__lyrics {
+.discography__song1Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper2 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song2 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song2Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper3 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song3 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song3Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper4 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song4 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song4Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper5 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song5 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song5Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper6 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song6 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song6Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper7 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song7 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song7Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper8 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song8 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song8Lyrics {
+  margin: 10px 0 0 13px;
+  padding: 0;
+}
+
+.discography__text-wrapper9 {
+  max-width: 1000px;
+
+  color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  font-size: 13px;
+  line-height: 23px;
+  list-style-type: none;
+}
+
+.discography__song9 {
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+.discography__song9Lyrics {
   margin: 10px 0 0 13px;
   padding: 0;
 }
