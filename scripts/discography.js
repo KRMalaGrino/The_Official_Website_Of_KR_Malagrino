@@ -16,8 +16,8 @@ export default function getDiscographyInfo(info) {
   );
 
   discographyIframe.src = info.link;
-  discographySongTitle.textContent = info.title;
-  discographyLyrics.textContent = info.year;
+  discographySongTitle.textContent = info.song1;
+  discographyLyrics.textContent = info.song1Lyrics;
 
   return discographyBlockElement;
 }

@@ -39,87 +39,53 @@ const highlightsArray = [
 
 const discographyArray = [
   {
-    title: "Octave .0",
-    year: "2024",
     link: "https://open.spotify.com/embed/album/1j8F0KOLxKiKPHQMcBxPf1?utm_source=generator&theme=0",
+    song1: "Da Bubu",
+    song1Lyrics:
+      "VERSE 1 - Lately there's been a lot of lovey-dovey - Round four with the wifey like bunnies - Bathe her in the water of the word - The water with the honey - She stays naked in the house - So pleasing to be in her presence - The king is back on the throne - She does it to make a home for him | CHORUS - Home sweet home - Da Bubu for breakfast - Nose rash so i had to switch it up - News flash - when did you become a judge ? | VERSE 2 - Bright & early - birds chirping - Singing to me to get the word in - On the balcony - a cup of coffee - Call Eddie - talk about the new beat - If I like the beat then ima use it - Give it all away so you can't sue me - I worked the past 10 years for free - Not hiding - you know where to find me | CHORUS - Home sweet home - Da Bubu for breakfast - Nose rash so i had to switch it up - News flash - when did you become a judge ? | OUTRO - Are you lord Da Bubu ? Da Bubu - Home sweet home X2",
+    song2: "C.O.R.E.",
+    song2Lyrics: "",
+    song3: "Opposite Spirit",
+    song3Lyrics: "",
+    song4: "Peace, Blood, Water",
+    song4Lyrics: "",
+    song5: "Rarity",
+    song5Lyrics: "",
+    song6: "Jersey Boy",
+    song6Lyrics: "",
+    song7: "Folded Flags",
+    song7Lyrics: "",
   },
   {
-    title: "Look Up",
-    year: "2024",
     link: "https://open.spotify.com/embed/album/5rUnTmZTv7VWrY64Ofofy7?utm_source=generator&theme=0",
   },
   {
-    title: "Filthy Rags",
-    year: "2024",
     link: "https://open.spotify.com/embed/album/3bPW2pKTVc2U1thtpv07Mv?utm_source=generator&theme=0",
   },
   {
-    title: "SEED-3000",
-    year: "2024",
     link: "https://open.spotify.com/embed/album/3hYcn73DOge96MiPc1PFKW?utm_source=generator&theme=0",
   },
   {
-    title: "A Lil' Fancy",
-    year: "2024",
     link: "https://open.spotify.com/embed/album/3Irm7unt1ZNJAXNuHqKpSz?utm_source=generator&theme=0",
   },
   {
-    title: "L'OWL'Y",
-    year: "2023",
     link: "https://open.spotify.com/embed/album/3iGx0LC84dpNiWC9ogkezp?utm_source=generator&theme=0",
   },
   {
-    title: "REALM IV",
-    year: "2022",
     link: "https://open.spotify.com/embed/album/553ZbYATN2ZZeyUhVE7q5o?utm_source=generator&theme=0",
   },
   {
-    title: "S-O-L",
-    year: "2022",
     link: "https://open.spotify.com/embed/album/7Bm3ub7N78GKzdH05w7jlW?utm_source=generator&theme=0",
   },
   {
-    title: "III DOOR",
-    year: "2021",
     link: "https://open.spotify.com/embed/album/2sXPrZBVJwHbCjc3R87FCP?utm_source=generator&theme=0",
   },
   {
-    title: "T-PO'AK",
-    year: "2021",
     link: "https://open.spotify.com/embed/album/17KtMScOLI3Ic8fIXUtksL?utm_source=generator&theme=0",
   },
 ];
 
-const octaveLyricsArray = [
-  {
-    songTitle: "Da Bubu",
-    lyrics: "",
-  },
-  {
-    songTitle: "C.O.R.E.",
-    lyrics: "",
-  },
-  {
-    songTitle: "Opposite Spirit",
-    lyrics: "",
-  },
-  {
-    songTitle: "Peace, Blood, Water",
-    lyrics: "",
-  },
-  {
-    songTitle: "Rarity",
-    lyrics: "",
-  },
-  {
-    songTitle: "Jersey Boy",
-    lyrics: "",
-  },
-  {
-    songTitle: "Folded Flags",
-    lyrics: "",
-  },
-];
+const octaveLyricsArray = [{}, {}, {}, {}, {}];
 
 const seedLyricsArray = [
   {
@@ -262,7 +228,7 @@ const doorLyricsArray = [
     songTitle: "Portals'",
     lyrics: "",
   },
-]; // finish song titles
+];
 
 const tpoakLyricsArray = [
   {
@@ -301,7 +267,7 @@ const tpoakLyricsArray = [
     songTitle: "Sayonara!",
     lyrics: "",
   },
-]; // finish song titles
+];
 
 export {
   highlightsArray,
