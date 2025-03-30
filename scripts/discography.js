@@ -64,24 +64,25 @@ export default function getDiscographyInfo(info) {
   );
 
   discographyIframe.src = info.link;
-  discographySong1.textContent = info.song1;
-  discographySong1Lyrics.textContent = info.song1Lyrics;
-  discographySong2.textContent = info.song2;
-  discographySong2Lyrics.textContent = info.song2Lyrics;
-  discographySong3.textContent = info.song3;
-  discographySong3Lyrics.textContent = info.song3Lyrics;
-  discographySong4.textContent = info.song4;
-  discographySong4Lyrics.textContent = info.song4Lyrics;
-  discographySong5.textContent = info.song5;
-  discographySong5Lyrics.textContent = info.song5Lyrics;
-  discographySong6.textContent = info.song6;
-  discographySong6Lyrics.textContent = info.song6Lyrics;
-  discographySong7.textContent = info.song7;
-  discographySong7Lyrics.textContent = info.song7Lyrics;
-  discographySong8.textContent = info.song8;
-  discographySong8Lyrics.textContent = info.song8Lyrics;
-  discographySong9.textContent = info.song9;
-  discographySong9Lyrics.textContent = info.song9Lyrics;
+
+  discographySong1.textContent = info.lyrics.song1;
+  discographySong1Lyrics.textContent = info.lyrics.song1Lyrics;
+  discographySong2.textContent = info.lyrics.song2;
+  discographySong2Lyrics.textContent = info.lyrics.song2Lyrics;
+  discographySong3.textContent = info.lyrics.song3;
+  discographySong3Lyrics.textContent = info.lyrics.song3Lyrics;
+  discographySong4.textContent = info.lyrics.song4;
+  discographySong4Lyrics.textContent = info.lyrics.song4Lyrics;
+  discographySong5.textContent = info.lyrics.song5;
+  discographySong5Lyrics.textContent = info.lyrics.song5Lyrics;
+  discographySong6.textContent = info.lyrics.song6;
+  discographySong6Lyrics.textContent = info.lyrics.song6Lyrics;
+  discographySong7.textContent = info.lyrics.song7;
+  discographySong7Lyrics.textContent = info.lyrics.song7Lyrics;
+  discographySong8.textContent = info.lyrics.song8;
+  discographySong8Lyrics.textContent = info.lyrics.song8Lyrics;
+  discographySong9.textContent = info.lyrics.song9;
+  discographySong9Lyrics.textContent = info.lyrics.song9Lyrics;
 
   return discographyBlockElement;
 }
