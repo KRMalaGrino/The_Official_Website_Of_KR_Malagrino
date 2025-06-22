@@ -13,12 +13,24 @@
   justify-content: space-between;
 }
 
+.discography__block-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.discography__video-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .discography__block {
   margin: 0;
   padding: 0;
+  gap: 20px;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .discography__iframe {
@@ -26,6 +38,11 @@
   height: 550px;
   width: 500px;
   border: none;
+}
+
+.discography__instagram {
+  display: flex;
+  flex-direction: column;
 }
 
 .discography__all-lyrics {

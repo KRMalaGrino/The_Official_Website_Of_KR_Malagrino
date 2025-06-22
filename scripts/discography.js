@@ -2,8 +2,21 @@ const discographyTemplate = document.querySelector("#discography");
 
 export default function getDiscographyInfo(info) {
   const discographyBlockElement = discographyTemplate.content
-    .querySelector(".discography__block")
+    .querySelector(".discography__video-wrapper")
     .cloneNode(true);
+
+  const discographyInstagramEmbed = discographyBlockElement.querySelector(
+    ".discography__instagram"
+  );
+
+  if (discographyInstagramEmbed) {
+    if (info.instagramEmbed1) {
+      discographyInstagramEmbed.innerHTML += info.instagramEmbed1;
+    }
+    if (info.instagramEmbed2) {
+      discographyInstagramEmbed.innerHTML += info.instagramEmbed2;
+    }
+  }
 
   const discographyIframe = discographyBlockElement.querySelector(
     ".discography__iframe"

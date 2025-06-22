@@ -1,45 +1,14 @@
-const highlightsArray = [
-  {
-    song: "Look Up",
-    link: "https://www.youtube.com/embed/zbF3SsoTUvA?si=is5eNOwXuqZPKRKu",
-  },
-  {
-    song: "A Lil' Fancy",
-    link: "https://www.youtube.com/embed/iPqlSTPTNC8?si=xnzyXWf0mJZu5Vay",
-  },
-  {
-    song: "Kahina",
-    link: "https://www.youtube.com/embed/A0dovpf779A?si=uVPKRurhaxLZHkEe",
-  },
-  {
-    song: "Sayonara!",
-    link: "https://www.youtube.com/embed/1miVrBYqzRc?si=FrCS26e2va0kkeLf",
-  },
-  {
-    song: "Erth",
-    link: "https://www.youtube.com/embed/ZulWAyu0OlQ?si=-b7Xpdv1QamSfuoE",
-  },
-  {
-    song: "Mercury",
-    link: "https://www.youtube.com/embed/h7zJg8XM7Fs?si=kOjgmIZbLb9qIkkn",
-  },
-  {
-    song: "New World",
-    link: "https://www.youtube.com/embed/csjlAccd3aQ?si=JNixjpBn2WXMxkck",
-  },
-  {
-    song: "All She Wrote",
-    link: "https://www.youtube.com/embed/wahvaciH9Xg?si=OSRlq4IX13pio3fE",
-  },
-  {
-    song: "Save The Children",
-    link: "https://www.youtube.com/embed/S9YGRYt6E34?si=9-KZA2lEEQR-3j8m",
-  },
-];
-
 const discographyArray = [
   {
+    // Octave .0
     link: "https://open.spotify.com/embed/album/1j8F0KOLxKiKPHQMcBxPf1?utm_source=generator&theme=0",
+    instagramEmbed1: `<blockquote class="instagram-media"
+    data-instgrm-permalink="https://www.instagram.com/reel/DJDKBjTT28A"
+    data-instgrm-version="14" style="max-width:540px; min-width:326px; width:100%; height: 343px;"> </blockquote>`,
+    instagramEmbed2: `<blockquote class="instagram-media" 
+    data-instgrm-permalink="https://www.instagram.com/reel/DJDJRzZz1fL/" 
+    data-instgrm-version="14" 
+    style="max-width:540px; min-width:326px; width:100%; margin: 1px auto; border-radius: 3px; height: 343px;"></blockquote>`,
     lyrics: {
       song1: "Da Bubu",
       song1Lyrics:
@@ -65,6 +34,7 @@ const discographyArray = [
     },
   },
   {
+    // Look Up
     link: "https://open.spotify.com/embed/album/5rUnTmZTv7VWrY64Ofofy7?utm_source=generator&theme=0",
     lyrics: {
       song1: "",
@@ -388,4 +358,4 @@ const discographyArray = [
 //   },
 // ];
 
-export { highlightsArray, discographyArray };
+export default discographyArray;
