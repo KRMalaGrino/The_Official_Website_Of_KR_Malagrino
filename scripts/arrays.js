@@ -36,40 +36,39 @@ const discographyArray = [
   {
     // Look Up
     link: "https://open.spotify.com/embed/album/5rUnTmZTv7VWrY64Ofofy7?utm_source=generator&theme=0",
+    tiktokEmbed1: `
+    <blockquote
+    class="tiktok-embed"
+    cite="https://www.tiktok.com/@kr.malagrino/video/7406328956401601835"
+    data-video-id="7406328956401601835"
+    style="width: 323px; height: 560px;"
+    >
+    <section>
+      <a
+        target="_blank"
+        title="@kr.malagrino"
+        href="https://www.tiktok.com/@kr.malagrino?refer=embed"
+      >@kr.malagrino</a>
+      <p>Releasing singles for a season! Music and video from an iPhone! Look Up.</p>
+      <a
+        target="_blank"
+        title="♬ original sound - KR MalaGrino"
+        href="https://www.tiktok.com/music/original-sound-7406328869256432426?refer=embed"
+      >♬ original sound - KR MalaGrino</a>
+    </section>
+    </blockquote>`,
     lyrics: {
-      song1: "",
-      lyrics: "",
-      song2: "",
-      lyrics: "",
-      song3: "",
-      lyrics: "",
-      song4: "",
-      lyrics: "",
-      song5: "",
-      lyrics: "",
-      song6: "",
-      lyrics: "",
-      song7: "",
-      lyrics: "",
+      song1: "Look Up",
+      song1Lyrics:
+        "VERSE 1 - To be close to you is everything - worth more than anything now a days - In this music I make I praise you - All glory goes back up to you - Wicked - Dirty - Nothing is glorious about me - You are the only one worthy - I'm not even gonna pretend | PRE-CHORUS - Was sober for like five months once - the best since I was like 15 - from alcohol to the clear - crystal you're not my friend | CHORUS - That's why you died for me - cause you knew I couldn't do it - not making excuses - it's just what the truth is | VERSE 2 - You're not anything - you're not special - people pleasing is not my style - I don't wanna stop being a rebel - my roots to the core is heavy metal - None of this is worth my time - walk away, walk away - 'I gave you my word' said the Lord - guess it wasn't loud enough | PRE-CHORUS - Was sober for like five months once - the best since I was like 15 - from alcohol to the clear - crystal you're not my friend | CHORUS - That's why you died for me - cause you knew I couldn't do it - not making excuses - it's just what the truth is | OUTRO - I look up to the sky - I say thank you Lord - I look up to the sky - to the sky - Lord - I look up to the sky - I say thank you Lord - woah - I look up to the sky - to the sky - I look up to the sky - I say thank you",
     },
   },
   {
     link: "https://open.spotify.com/embed/album/3bPW2pKTVc2U1thtpv07Mv?utm_source=generator&theme=0",
     lyrics: {
-      song1: "",
-      lyrics: "",
-      song2: "",
-      lyrics: "",
-      song3: "",
-      lyrics: "",
-      song4: "",
-      lyrics: "",
-      song5: "",
-      lyrics: "",
-      song6: "",
-      lyrics: "",
-      song7: "",
-      lyrics: "",
+      song1: "Filthy Rags (feat. Dòsh Dòsh)",
+      song1Lyrics:
+        "BRIDGE - I bow to the ground - I bow down (to the ground x6) | VERSE 1 - A Public stance was made today - still filthy rags though - I was made in the same image as God - Lies can be peaceful too - so which is it you say ? - Righteous anger - I itch to decipher - With eyes to see and ears to hear - I jump right in the cypher - The type of image that triggers em - Maybe I am what I thought I was not | CHORUS - In your presence - at the feet - I'm not worthy - Lord have mercy - Though I have questions I ask none - I just bow - all the way down to the ground | BRIDGE - I bow to the ground - I bow down (to the ground x6) | VERSE 2 - It's all narcissistic - this place we find entertaining - People worship people - Nothing is presented without a face - Would you still be genuine without your face ? For personal gain they kill there babies - & only when we suffer - does the time count - But God don't leave us here in the pit - at least through dirt in & get it over with - I don't wanna go out like this - but it sure be nice to be up with you right now | CHORUS - In your presence - at the feet - I'm not worthy - Lord have mercy - Though I have questions I ask none - I just bow - all the way down to the ground | INTERLUDE 1 (Dòsh Dósh) - All our righteous acts are like filthy rags, filthy rags - We all shrivel up like a leaf - All of us have become - like one who is unclean - We all shrivel up like a leaf - All our wings have swept away | BRIDGE - I bow to the ground - I bow down (to the ground x6) | INTERLUDE 2 - Lord - come down x2 - Innocent - they are innocent - God - come down x2 They are innocent - Innocent - Lord - come down , save them - Innocent - they are innocent - God - come down x2 They are innocent - Innocent x2 | CHORUS - In your presence - at the feet - I'm not worthy - Lord have mercy - Though I have questions I ask none - I just bow - all the way down to the ground - Save me",
     },
   },
   {

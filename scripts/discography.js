@@ -5,6 +5,7 @@ export default function getDiscographyInfo(info) {
     .querySelector(".discography__video-wrapper")
     .cloneNode(true);
 
+  // Instagram embedded videos
   const discographyInstagramEmbed = discographyBlockElement.querySelector(
     ".discography__instagram"
   );
@@ -16,6 +17,15 @@ export default function getDiscographyInfo(info) {
     if (info.instagramEmbed2) {
       discographyInstagramEmbed.innerHTML += info.instagramEmbed2;
     }
+  }
+
+  // Tiktok embedded videos
+  const discographyTiktokEmbed = discographyBlockElement.querySelector(
+    ".discography__tiktok"
+  );
+
+  if (info.tiktokEmbed1) {
+    discographyTiktokEmbed.innerHTML += info.tiktokEmbed1;
   }
 
   const discographyIframe = discographyBlockElement.querySelector(

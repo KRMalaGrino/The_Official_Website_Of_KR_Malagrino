@@ -45,6 +45,11 @@
   flex-direction: column;
 }
 
+.discography__tiktok {
+  display: flex;
+  flex-direction: column;
+}
+
 .discography__all-lyrics {
   display: flex;
   flex-direction: row;
